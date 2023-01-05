@@ -8,10 +8,12 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Routes>
-        <Route path="/" element={<Homepage />} />
-        <Route path="*" element={<PagenotFound />} />
-      </Routes>
+      <div className='container'>
+        <Routes>
+          <Route path="/" element={<Homepage />} />
+          <Route path="*" element={<PagenotFound />} />
+        </Routes>
+      </div>
     </div>
   );
 }
