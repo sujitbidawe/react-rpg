@@ -6,7 +6,8 @@ const Header = () => {
     return (
         <div className="nav">
             <div>
-                <NavLink data-testid='nav-link' to='/' end className='nav-link'>Home</NavLink>
+                <NavLink to='/' end className='nav-link'>Home</NavLink>
+                <NavLink to='/allusers' end className='nav-link'>Listing</NavLink>
             </div>
             <div>
                 <span>
